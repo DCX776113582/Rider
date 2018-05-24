@@ -1,7 +1,7 @@
 class String{
   String& operator+(String& str1)
   {
-    len = len + str1.len;
+    len = len + str1.len;//个数相加
     char* s1 = new char[len+1];
     strcpy(s1,rep);
     strcat(s1,str1.rep);
